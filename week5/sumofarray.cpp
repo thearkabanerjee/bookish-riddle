@@ -14,7 +14,7 @@ int main(){
         arr[i] = m;
     }
 
-    int sum = 0;
+    long long sum = 0;
     for (int i = 0; i < a; i++){
         sum += arr[i];
     }
