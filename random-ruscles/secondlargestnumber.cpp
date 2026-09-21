@@ -15,7 +15,7 @@ int main(){
 
     // somehow find the second largest number
     int largest = arr[0];
-    int secondlargest;
+    int secondlargest = arr[0];
     bool foundsecond = false;
 
     for (int i = 0; i < a; i++){
@@ -40,6 +40,13 @@ int main(){
 
 
 
-    cout << secondlargest << endl;
+    // cout << secondlargest << endl;
+
+    if (largest == secondlargest){
+        cout << -1 << endl;
+    }
+    else {
+        cout << secondlargest << endl;
+    }
     return 0;
 }
